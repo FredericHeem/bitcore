@@ -196,7 +196,7 @@ exports.drk = {
             'dnsseed.darkcoin.qa'
           ],
           defaultClientPort: 9999,
-          peerVersion: 70043
+          peerVersion: 70054
         },
         testnet : {
           name: 'testnet',
@@ -221,7 +221,7 @@ exports.drk = {
             'testnet-seed.darkcoin.io'
           ],
           defaultClientPort: 19999,
-          peerVersion: 70043
+          peerVersion: 70054
         }
     }
 // Kept for backward compatibility, e.g Insight
