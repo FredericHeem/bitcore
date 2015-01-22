@@ -176,9 +176,9 @@ exports.drk = {
         livenet : {
           name: 'livenet',
           magic: hex('bf0c6bbd'),
-          addressVersion: 0x4c,
-          privKeyVersion: 128,
-          P2SHVersion: 5,
+          addressVersion: 76,
+          privKeyVersion: 204,
+          P2SHVersion: 16,
           hkeyPublicVersion: 0x0488b21e,
           hkeyPrivateVersion: 0x0488ade4,
           genesisBlock: {
@@ -201,9 +201,9 @@ exports.drk = {
         testnet : {
           name: 'testnet',
           magic: hex('cee2caff'),
-          addressVersion: 0x6f,
+          addressVersion: 139,
           privKeyVersion: 239,
-          P2SHVersion: 196,
+          P2SHVersion: 19,
           hkeyPublicVersion: 0x043587cf,
           hkeyPrivateVersion: 0x04358394,
           genesisBlock: {
@@ -218,7 +218,8 @@ exports.drk = {
           },
           dnsSeeds: [
             'testnet-seed.darkcoin.io',
-            'testnet-seed.darkcoin.io'
+            'testnet-seed.darkcoin.qa',
+            'test.dnsseed.masternode.io'
           ],
           defaultClientPort: 19999,
           peerVersion: 70054

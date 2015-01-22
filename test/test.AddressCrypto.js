@@ -22,7 +22,7 @@ describe('AddressCrypto', function() {
     ['nn1EAEJtjLaHRJqn4smeASuhcUWbx71rwx', 'doge', 'testnet', true],
     ['Xca1cBHBeaH1LqRw4p5kqsDK65BjPuTDAH', 'drk', 'livenet', true],
     ['Xca1cBHBeaH1LqRw4p5kqsDK65BjPuTDAG', 'drk', 'livenet', false],
-    ['mpKHtj2SjAxKBLwZwyDi9UcuVbfgV1gQhD', 'drk', 'testnet', true]
+    ['yCUNcuLMrasZ6CuFLqnYHNiAfCFAnC58Mv', 'drk', 'testnet', true]
   ];
   data.forEach(function(datum) {
     var address = datum[0];
