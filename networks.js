@@ -193,7 +193,8 @@ exports.drk = {
           },
           dnsSeeds: [
             'dnsseed.darkcoin.io',
-            'dnsseed.darkcoin.qa'
+            'dnsseed.darkcoin.qa',
+            'dnsseed.masternode.io'
           ],
           defaultClientPort: 9999,
           peerVersion: 70054
