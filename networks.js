@@ -121,9 +121,9 @@ exports.doge = {
     livenet : {
       name: 'livenet',
       magic: hex('c0c0c0c0'),
-      addressVersion: 0x1E,
-      privKeyVersion: 128,
-      P2SHVersion: 5,
+      addressVersion: 30,
+      privKeyVersion: 158,
+      P2SHVersion: 22,
       hkeyPublicVersion: 0x0488b21e,
       hkeyPrivateVersion: 0x0488ade4,
       genesisBlock: {
@@ -142,13 +142,14 @@ exports.doge = {
         'seed.dglibrary.org',
         'seed.dogechain.info'
       ],
-      defaultClientPort: 22556
+      defaultClientPort: 22556,
+      peerVersion: 70003
     },
     testnet : {
       name: 'testnet',
       magic: hex('FCC1B7DC'),
-      addressVersion: 0x71,
-      privKeyVersion: 239,
+      addressVersion: 113,
+      privKeyVersion: 241,
       P2SHVersion: 196,
       hkeyPublicVersion: 0x043587cf,
       hkeyPrivateVersion: 0x04358394,
@@ -165,9 +166,10 @@ exports.doge = {
       dnsSeeds: [
         'suchdig.com',
         'testdoge.lionservers.de',
-        'senatorwhiskers.com'
+        'testdoge-seed-static.lionservers.de'
       ],
-      defaultClientPort: 44556
+      defaultClientPort: 44556,
+      peerVersion: 70003
     }
 }
 
